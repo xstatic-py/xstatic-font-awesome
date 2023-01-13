@@ -11,9 +11,9 @@ NAME = __name__.split('.')[-1] # package name (e.g. 'foo' or 'foo_bar')
                                # please use a all-lowercase valid python
                                # package name
 
-VERSION = '4.1.0' # version of the packaged files, please use the upstream
+VERSION = '6.2.1' # version of the packaged files, please use the upstream
                   # version number
-BUILD = '1' # our package build number, so we can release new builds
+BUILD = '0' # our package build number, so we can release new builds
              # with fixes for xstatic stuff.
 PACKAGE_VERSION = VERSION + '.' + BUILD # version used for PyPi
 
@@ -24,19 +24,19 @@ CLASSIFIERS = []
 KEYWORDS = '%s xstatic' % NAME
 
 # XStatic-* package maintainer:
-MAINTAINER = 'Thomas Waldmann'
-MAINTAINER_EMAIL = 'tw@waldmann-edv.de'
+MAINTAINER = 'Rob Cresswell'
+MAINTAINER_EMAIL = 'robert.cresswell@outlook.com'
 
 # this refers to the project homepage of the stuff we packaged:
-HOMEPAGE = 'http://fortawesome.github.io/Font-Awesome/'
+HOMEPAGE = 'https://github.com/FortAwesome/Font-Awesome'
 
 # this refers to all files:
-LICENSE = '(same as %s)' % DISPLAY_NAME
+LICENSE = 'SIL OFL 1.1'
 
 from os.path import join, dirname
 BASE_DIR = join(dirname(__file__), 'data')
 # linux package maintainers just can point to their file locations like this:
-#BASE_DIR = '/usr/share/font-awesome'
+#BASE_DIR = '/usr/share/javascript/d3'
 
 LOCATIONS = {
     # CDN locations (if no public CDN exists, use an empty dict)
@@ -46,9 +46,4 @@ LOCATIONS = {
     # your relative path/filenames should usually be without version
     # information, because either the base dir/url is exactly for this
     # version or the mapping will care for accessing this version.
-    ('cdnjs', 'http'): 'http://cdnjs.cloudflare.com/ajax/libs/font-awesome/%s/' % VERSION,
-    ('cdnjs', 'https'): 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/%s/' % VERSION,
-    ('netdna', 'http'): 'http://netdna.bootstrapcdn.com/font-awesome/%s/' % VERSION,
-    ('netdna', 'https'): 'https://netdna.bootstrapcdn.com/font-awesome/%s/' % VERSION,
 }
-
