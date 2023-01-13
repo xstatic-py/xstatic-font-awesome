@@ -1,9 +1,8 @@
-*.pyc
-*.sw?
-*.sqlite3
-.DS_STORE
-*.egg-info
-.venv
-.tox
-build
-dist
+.*\.py[co]$
+dist/
+XStatic_Font_Awesome.egg-info/
+.DS_Store
+.idea
+.orig$
+.rej$
+.~$
