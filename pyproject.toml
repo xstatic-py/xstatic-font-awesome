@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "XStatic-Font-Awesome"
-version = "6.2.1.0"
+version = "6.2.1.1"
 description= "Font-Awesome 6.2.1 (XStatic packaging standard)"
 readme = "README.txt"
 authors = [
@@ -13,7 +13,8 @@ authors = [
 requires-python = ">=3.0" 
 license = { file = "xstatic/pkg/font_awesome/data/LICENSE.txt" }
 classifiers = [ "Environment :: Web Environment", 
-                "License :: OSI Approved :: SIL Open Font License 1.1 (OFL-1.1)", 
+                "License :: OSI Approved :: SIL Open Font License 1.1 (OFL-1.1)",
+                "License :: OSI Approved :: MIT License",
                 "Programming Language :: Python :: 3" ]
 
 keywords = [ "font_awesome" , "xstatic" ]

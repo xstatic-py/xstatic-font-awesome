@@ -13,7 +13,7 @@ NAME = __name__.split('.')[-1] # package name (e.g. 'foo' or 'foo_bar')
 
 VERSION = '6.2.1' # version of the packaged files, please use the upstream
                   # version number
-BUILD = '0' # our package build number, so we can release new builds
+BUILD = '1' # our package build number, so we can release new builds
              # with fixes for xstatic stuff.
 PACKAGE_VERSION = VERSION + '.' + BUILD # version used for PyPi
 
@@ -24,19 +24,19 @@ CLASSIFIERS = []
 KEYWORDS = '%s xstatic' % NAME
 
 # XStatic-* package maintainer:
-MAINTAINER = 'Rob Cresswell'
-MAINTAINER_EMAIL = 'robert.cresswell@outlook.com'
+MAINTAINER = 'Reimar Bauer'
+MAINTAINER_EMAIL = 'rb.proj@gmail.com'
 
 # this refers to the project homepage of the stuff we packaged:
 HOMEPAGE = 'https://github.com/FortAwesome/Font-Awesome'
 
 # this refers to all files:
-LICENSE = 'SIL OFL 1.1'
+LICENSE = '(same as %s)' % DISPLAY_NAME
 
 from os.path import join, dirname
 BASE_DIR = join(dirname(__file__), 'data')
 # linux package maintainers just can point to their file locations like this:
-#BASE_DIR = '/usr/share/javascript/d3'
+#BASE_DIR = '/usr/share/font-awesome/'
 
 LOCATIONS = {
     # CDN locations (if no public CDN exists, use an empty dict)
