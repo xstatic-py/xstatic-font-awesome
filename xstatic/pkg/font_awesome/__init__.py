@@ -36,7 +36,7 @@ LICENSE = '(same as %s)' % DISPLAY_NAME
 from os.path import join, dirname
 BASE_DIR = join(dirname(__file__), 'data')
 # linux package maintainers just can point to their file locations like this:
-#BASE_DIR = '/usr/share/font-awesome/'
+#BASE_DIR = '/usr/share/font-awesome'
 
 LOCATIONS = {
     # CDN locations (if no public CDN exists, use an empty dict)
@@ -46,4 +46,5 @@ LOCATIONS = {
     # your relative path/filenames should usually be without version
     # information, because either the base dir/url is exactly for this
     # version or the mapping will care for accessing this version.
+    ('cdnjs', 'https'): 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/%s/' % VERSION,
 }
