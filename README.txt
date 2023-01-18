@@ -11,9 +11,3 @@ the XStatic base package, if you like.
 
 You can find more info about the xstatic packaging way in the package `XStatic`.
 
-
-LICENSE
--------
-
-See xstatic/pkg/font_awesome/data/LICENSE.txt
-

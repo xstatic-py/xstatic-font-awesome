@@ -1,6 +1,5 @@
 include README.txt
-recursive-include xstatic *
+recursive-include xstatic/pkg/font_awesome *
+
 global-exclude *.pyc
 global-exclude *.pyo
-global-exclude *.orig
-global-exclude *.rej
