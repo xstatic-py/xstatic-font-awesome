@@ -50,4 +50,5 @@ LOCATIONS = {
     # information, because either the base dir/url is exactly for this
     # version or the mapping will care for accessing this version.
     ('cdnjs', 'https'): 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/%s/' % VERSION,
+    ('cdnjs', 'http'): 'http://cdnjs.cloudflare.com/ajax/libs/font-awesome/%s/' % VERSION,
 }
