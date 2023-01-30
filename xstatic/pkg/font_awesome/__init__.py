@@ -30,7 +30,7 @@ MAINTAINER_EMAIL = 'rb.proj@gmail.com'
 # this refers to the project homepage of the stuff we packaged:
 HOMEPAGE = 'https://github.com/FortAwesome/Font-Awesome'
 
-# this refers to the location of the xstatic package
+# this refers to the repository of xstatic-*:
 REPOSITORY = 'https://github.com/xstatic-py/xstatic-font-awesome'
 
 # this refers to all files:
