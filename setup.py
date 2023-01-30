@@ -17,6 +17,7 @@ setup(
     maintainer_email=xs.MAINTAINER_EMAIL,
     license=xs.LICENSE,
     url=xs.HOMEPAGE,
+    project_urls={"Repository": xs.REPOSITORY}
     platforms=xs.PLATFORMS,
     packages=find_packages(),
     namespace_packages=['xstatic', 'xstatic.pkg', ],

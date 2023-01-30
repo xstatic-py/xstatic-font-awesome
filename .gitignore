@@ -1,0 +1,8 @@
+.*\.py[co]$
+dist/
+XStatic_Font_Awesome.egg-info/
+.DS_Store
+.idea
+.orig$
+.rej$
+.~$

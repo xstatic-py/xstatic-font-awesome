@@ -1,8 +1,0 @@
-.*\.py[co]$
-^dist/
-^XStatic_Font_Awesome.egg-info/
-^MANIFEST$
-.DS_Store
-.orig$
-.rej$
-.~$
